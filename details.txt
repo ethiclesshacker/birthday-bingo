@@ -1,0 +1,26 @@
+Input:
+    Name
+    List of items
+    Color/Picture
+
+
+Output:
+    Height: 1920
+    Width: 1080
+    Or any other 16:9 ratio.
+    Try: 960px * 540px
+
+
+Options:
+    Background:
+        Choose 1 color for background
+        Choose 2 colors for gradient
+        Choose to add 1 picture as background
+        Choose to grayscale said picture
+
+    Items:
+        Fix a width. Assume 4
+        Suggest adding 12, 16 items
+
+    Centre-piece:
+        Choose to add a centre-piece image saying Happy Birthday!

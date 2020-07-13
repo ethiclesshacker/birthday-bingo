@@ -1,0 +1,32 @@
+Frontend:
+    Take User input.
+        Name
+        List of items
+        Start with a background color. Prooooooobably upload a picture later.
+    
+    Send Button
+    
+    Get Back created image
+    
+    Download button for said image
+
+
+Backend:
+    Collect Data from Frontend
+
+    Generate sample HTML file.
+        Either use the template thingy for the ss-er
+        Or have it as a string with backticks and enter details there.
+
+    Create ss of the file
+
+    Pass that back to the Frontend.
+        Probably check how to manage this creation and return from backend to frontend.
+
+
+Backend Modules:
+    Express
+    
+    node-html-to-image
+
+    And probably a whole bunch of middlewares.
