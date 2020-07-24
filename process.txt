@@ -16,12 +16,15 @@ Backend:
 
     Generate sample HTML file.
         Either use the template thingy for the ss-er
-        Or have it as a string with backticks and enter details there.
+            Read template.html file.
+            Add for loop handlebars to the template.
+            Add CSS as <style> tags in the html itself.
 
-    Create ss of the file
+    Create ss of the file -- directly generate base64 and return that in object
 
     Pass that back to the Frontend.
         Probably check how to manage this creation and return from backend to frontend.
+            Create image as base64 and send that via object to frontend in the response.
 
 
 Backend Modules:
@@ -30,3 +33,7 @@ Backend Modules:
     node-html-to-image
 
     And probably a whole bunch of middlewares.
+
+
+Parts Left:
+    Add and check styles for the image

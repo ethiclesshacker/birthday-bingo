@@ -1,58 +1,45 @@
-* {
-    margin: 0px;
-    padding: 0px;
+*{
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
-.main {
-    padding: 1rem;
-    margin: 10px 1rem;
+body {
+    width: 90%;
     text-align: center;
-    width: 700px;
-    height: 700px;
+    margin: 0 auto;
+}
+
+h1{
+    padding: 10px;
+    margin: 10px; 
+}
+ 
+input, textarea{
+    font-size:20px;
+    padding: 10px;
+    height: 1vh;
+} 
+
+textarea{
+    height: 55vh;
+    resize: none;
+}
+
+
+.main {
     display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-}
-
-.heading {
-    color: red;
-    font-weight: bolder;
-    font-size: 35px;
-    padding: 1rem 1rem;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-}
-
-.items {
-    display: flex ;
     flex-wrap: wrap;
-    align-content: space-between;
-    justify-content: space-evenly;
-    padding: 4rem 1rem;
-    margin:  0.5rem;
-    background-image: linear-gradient(black, black),url(https://picsum.photos/700);
-    background-size: cover;
-    background-blend-mode: saturation;
+    justify-content: space-between;
 
 }
 
-
-
-.items div{
-    
-    width: 120px;
-    height: 120px;
-    background-color: white;
-    font-size: 20px;
-    border: 1px solid red;
-    padding: 5px;
-    margin: 5px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+.form {
+    flex-basis: 45%;
+    min-width: 400px;
 }
 
-p{
-    font-size: 22px;
+.preview {
+    flex-basis: 45%;
+    min-width: 400px;
 }
