@@ -37,9 +37,22 @@ textarea{
 .form {
     flex-basis: 45%;
     min-width: 400px;
+    margin: 0 auto;
 }
 
 .preview {
     flex-basis: 45%;
     min-width: 400px;
+}
+
+
+.hidden {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+canvas {
+    visibility: visible;
 }
