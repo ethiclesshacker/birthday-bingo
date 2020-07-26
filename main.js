@@ -23,8 +23,8 @@ let data = {
 let headFont, bodyFont;
 
 function preload() {
-    headFont = loadFont('../assets/Sacramento-Regular.ttf');
-    bodyFont = loadFont('../assets/AmaticSC-Regular.ttf');
+    headFont = loadFont('./assets/Sacramento-Regular.ttf');
+    bodyFont = loadFont('./assets/AmaticSC-Regular.ttf');
 }
 
 function setup() {
